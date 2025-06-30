@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to My Website</title>
+    <!-- Only add primary and important JS and CSS -->
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        section {
+            padding: 20px;
+            margin: 10px;
+            background-color: #fff;
+            border-radius: 5px;
+        }
+
+        h1 {
+            
+            /* color: #333; */
+        }
+
+        .container {
+            max-width: 1300px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+
+        .bg-dark-1 {
+            background-color: #333;
+            color: #fff;
+        }
+
+        .bg-dark-2 {
+            background-color: #444;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+<!-- Header Section -->
+<section class="bg-dark-1">
+    <div class="container">
+        <h1>Header</h1>
+        <p>This is the header section of the website.</p>    
+    </div>
+</section>
+<section class="bg-dark-2">
+    <div class="container">
+        <h2>Products</h1>
+        <p>This is the main content area where you can add your text, images, and other elements.</p>
+    </div>
+</section>
+<section>Events</section>
+<section>Reservation</section>
+<section>Foother</section>
+
+</body>
+</html>
