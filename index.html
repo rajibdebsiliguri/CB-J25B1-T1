@@ -5,66 +5,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome to My Website</title>
     <!-- Only add primary and important JS and CSS -->
+    <link rel="stylesheet" href="/assets/css/style.css">
 
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-        section {
-            padding: 20px;
-            margin: 10px;
-            background-color: #fff;
-            border-radius: 5px;
-        }
-
-        h1 {
-            
-            /* color: #333; */
-        }
-
-        .container {
-            max-width: 1300px;
-            margin: 0 auto;
-            padding: 20px;
-        }
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
 
 
-        .bg-dark-1 {
-            background-color: #333;
-            color: #fff;
-        }
-
-        .bg-dark-2 {
-            background-color: #444;
-            color: #fff;
-        }
-        .bottom-div {
-            width: 100%;
-            height: 100px;
-            background-color: #c40808;
-            color: #fff;
-        }
-        .footerdiv {
-            width: 100%;
-            height: 100px;
-            background-color: #220202;
-            color: #fff;
-        }
-    </style>
 </head>
 <body>
 <!-- Header Section -->
-<section class="bg-dark-1">
-    <div class="container">
-        <h1>Header</h1>
-        <p>This is the header section of the website.</p> 
-        <div class="bottom-div"></div>   
+<section class="bg-dark-1 header-top-border">
+    <div class="container header-container">
+        <div class="logo-wrapper">
+            <a href="/" class="logo"><img src="https://preview.colorlib.com/theme/pato/images/icons/logo2.png.webp" alt="Logo"></a>
+        </div>
+
+         <div class="social-wrapper">
+            <ul class="social-icons">
+                <li><a href="#"><img src="assets/images/icons/facebook.svg" alt="facebook"></i></a></li>
+                <li><a href="#"><img src="assets/images/icons/whatsapp.svg" alt="whatsapp"></i></a></li>
+                <li><a href="#"><img src="assets/images/icons/youtube.svg" alt="youtube"></i></a></li>
+            </ul>
+        </div>
+
+        <div class="nav-wrapper">
+            <nav class="nav">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <div class="hero-wrapper">
+        <div class="overlay"></div>
+        <div class="header-content">
+            <h1>Welcome to</h1>
+            <h2>Pato Place</h2>
+            <a href="#" class="hero-cta-btn">Explore Now</a>
+        </div>
     </div>
 </section>
-<section class="bg-dark-2">
+<!-- <section class="bg-dark-2">
     <div class="container">
         <h2>Products</h1>
         <p>This is the main content area where you can add your text, images, and other elements.</p>
@@ -74,7 +60,7 @@
 <section>Reservation</section>
 <section>
     <div class="footerdiv"></div>
-</section>
+</section> -->
 
 </body>
 </html>
